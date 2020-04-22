@@ -4,8 +4,38 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
     <groupId>cn.coufran</groupId>
     <artifactId>hello</artifactId>
     <version>1.0.0</version>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>actable</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>coufran</name>
+            <email>coufran@qq.com</email>
+            <organization>coufran</organization>
+            <url>https://www.coufran.cn/</url>
+        </developer>
+    </developers>
+
+    <scm>
+        <tag>master</tag>
+        <url>https://github.com/coufran/hello-maven.git</url>
+        <connection>https://github.com/coufran/hello-maven.git</connection>
+        <developerConnection>https://github.com/coufran/hello-maven.git</developerConnection>
+    </scm>
 
 </project>
